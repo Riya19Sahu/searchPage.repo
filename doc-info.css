@@ -1,0 +1,95 @@
+.loc-book{
+    display: flex;
+    flex-direction: row-reverse; 
+    background-color: aqua;
+    padding: 15px 100px;
+    
+}
+
+.loc-book .content{
+    background-color:burlywood;
+    text-align: left;
+    padding: 20px 10px;
+    margin-left: 50px;
+    
+}
+.doc-book-right{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.doc-info .loc-book{
+    height: auto;
+    min-height: initial;
+    position: absolute;
+    right: 8px;
+    text-align: right;
+}
+.doc-info{
+
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 890px;
+    height: 240px;
+    box-sizing: content-box;
+    position: relative;
+    top: 230px;
+    left: 300px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+.doc-info .loc-book .location{
+    /* color:#3aac8b; */
+    margin-right: 5px;
+    position: relative;
+    
+}
+.doc-info .loc-book .avail-save{
+    position: relative;
+
+}
+.name-link{
+    color: #3aac8b;
+}
+.doc-info h3 a{
+    font-weight: bold;
+}
+/* .doc-info .content .speciality{
+    position: absolute;
+    top: 39px;
+    left: 120px;
+} */
+.doc-info p.speciality{
+    margin-top: 5px;
+}
+.doc-info .loc-book .Rating{
+
+}
+.doc-info .loc-book p.Rating span{
+    display: inline-block;
+}
+.Rating span.star{
+    width: 12px;
+    height: 13px;
+}
+.star{
+    background: url(https://d2d74a7s2nfnwy.cloudfront.net/i/gridsprite.png?v=1)
+    transparent no-repeat 0 0;
+}
+/* #btn-doc{
+    position: absolute;
+    bottom: 1px;
+} */
+/* #url-doc #btn-doc{
+    border-color:antiquewhite;
+    border-radius: 18.5px;
+    height: 30px;
+    width: 135px;
+    border: #3aac8b;
+    
+} */
+.content{
+
+}
